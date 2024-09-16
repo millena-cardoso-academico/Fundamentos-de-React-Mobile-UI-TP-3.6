@@ -1,0 +1,65 @@
+.container {
+  padding: 20px;
+}
+
+.heading-h2 {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.heading-h3 {
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.heading-h4 {
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.paragraph {
+  font-size: 16px;
+  text-align: justify;
+  text-indent: 20px;
+  padding: 0 20px;
+  margin-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+  .heading-h2 {
+    font-size: 28px;
+  }
+
+  .heading-h3 {
+    font-size: 24px;
+  }
+
+  .heading-h4 {
+    font-size: 20px;
+  }
+
+  .paragraph {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .heading-h2 {
+    font-size: 32px;
+  }
+
+  .heading-h3 {
+    font-size: 28px;
+  }
+
+  .heading-h4 {
+    font-size: 24px;
+  }
+
+  .paragraph {
+    font-size: 20px;
+  }
+}
